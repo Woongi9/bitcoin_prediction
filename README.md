@@ -1,18 +1,24 @@
 # 비트코인 그래프 예측
 
+
 ### 개발 환경 : Jupiter notebook, tensor flow, pandas, matplotlib
+
 
 ### 목표 : 과거의 5분 단위 데이터를 비교해와서 학습 후 미래의 그래프 예측
 
 
+
 ### epoch의 수에 따른 로스 함수 그래프
 
-[image:8596794B-F3A7-4477-9EEE-5F551E4536A9-669-0000028A42166E63/3C46FA18-DCD3-4DFD-A873-EE7C8C9FDDFB.png]
+<img width="312" alt="image" src="https://user-images.githubusercontent.com/79649052/159150050-af42e56a-80f0-43b5-92f6-912146b2cedb.png">
+
 
 
 ### 실제 값과 예측된 그래프 비교
 
-[image:99E6D3C7-BC1B-4BC6-8902-B07927C96868-669-000002970FE79BCA/010F5351-1F0B-410C-9D5D-9E299407E455.png]
+
+<img width="312" alt="image" src="https://user-images.githubusercontent.com/79649052/159150057-dc1769d5-39c8-476e-b595-9a18e768900a.png">
+
 
 
 ### 현재 마지막 불러온 데이터까지의 예측만 가능하고, 후에 더 보완해 슬라이딩 윈도우 기술을 통하여 미래의 30분 동안의 그래프를 예측할 예정
